@@ -1201,7 +1201,7 @@ img {
   color: #fff;
 }
 
-.mobile-menu__list {
+.mobile-menu__list:not(:last-child) {
   margin-bottom: 32px;
 }
 
