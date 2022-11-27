@@ -1,7 +1,12 @@
 .customers {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px){
     padding-top: 94px;
     padding-bottom: 94px;
 }
+    }
 
 .customers__title {
     margin-top: 0;
@@ -28,6 +33,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;

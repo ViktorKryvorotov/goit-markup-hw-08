@@ -1,23 +1,35 @@
 .team {
     background-color: var(--background-team);
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .team__tittle {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     text-align: center;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    @media screen and (min-width: 1200px){
+    margin-bottom: 50px;
+    font-size: 36px;
+    }
+   
 }
 
 .team__set {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 
     list-style: none;

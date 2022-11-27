@@ -61,16 +61,25 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40">
+            <use href="./imges/sprite.svg#icon-menu_40px"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!--Герой-->
-      <section class="hero">
+      <!-- <section class="hero">
         <h1 class="hero__text">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero__button" type="button" data-modal-open>
           Замовити послугу
         </button>
-      </section>
+      </section> -->
       <!--Наші переваги-->
       <section class="section">
         <div class="container">
@@ -323,7 +332,7 @@
         </div>
       </section>
       <!--Клієнти-->
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="customers__title">Постійні клієнти</h2>
           <ul class="customers__list">
@@ -371,10 +380,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!--Футтер-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div>
           <a class="logo" href="#"
@@ -458,7 +467,7 @@
           </button>
         </form>
       </div>
-    </footer>
+    </footer> -->
     <!--Модалка-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -531,6 +540,59 @@
         </form>
       </div>
     </div>
+    <!--Мобільне меню-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./imges/sprite.svg#icon-close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="mobile-menu__list">
+          <a href="" class="mobile-menu__link">Студія</a>
+        </li>
+        <li class="mobile-menu__list">
+          <a href="" class="mobile-menu__link">Портфоліо</a>
+        </li>
+        <li class="mobile-menu__list">
+          <a href="" class="mobile-menu__link">Контакти</a>
+        </li>
+      </ul>
+      <ul class="mobile-contacts list">
+        <li>
+          <a class="mobile-contacts__tel link" href="mailto:info@devstudio.com">
+            +38 096 111 11 11
+          </a>
+        </li>
+        <li>
+          <a class="mobile-contacts__email link" href="tel:+380961111111"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-social list">
+        <li class="mobile-social__items">
+          <a href="" class="mobile-social__link link">Instagram</a>
+        </li>
+        <li class="mobile-social__items">
+          <a href="" class="mobile-social__link link">Twitter</a>
+        </li>
+        <li class="mobile-social__items">
+          <a href="" class="mobile-social__link link">Facebook</a>
+        </li>
+        <li class="mobile-social__items">
+          <a href="" class="mobile-social__link link">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

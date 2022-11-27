@@ -1,6 +1,10 @@
 .production {
+    display: none;
     padding-top: 47px;
     padding-bottom: 94px;
+    @media screen and (min-width: 1200px){
+    display: flex;
+    }
 }
 
 .production__item {
