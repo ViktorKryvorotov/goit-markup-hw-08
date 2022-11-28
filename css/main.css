@@ -644,16 +644,22 @@ img {
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  padding: 16px 32px;
+  padding: 16px 52px;
   fill: var(--icon-color);
 }
 .customers__icon:hover, .customers__icon:focus {
   border-color: var(--akcent-color);
   fill: var(--akcent-color);
 }
+@media screen and (min-width: 1200px) {
+  .customers__icon {
+    padding: 16px 32px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .customers__icon {
     width: 226px;
+    padding: 16px 60px;
   }
 }
 
