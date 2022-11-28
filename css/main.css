@@ -1259,14 +1259,7 @@ img {
   color: var(--akcent-color);
 }
 
-.mobile-social__items:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 22px;
-  height: 0;
-  background-color: var(--secondary-color);
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+.mobile-social__items:not(:last-child) {
+  border-right: 1px solid var(--secondary-color);
+  padding-right: 10px;
 }/*# sourceMappingURL=main.css.map */
