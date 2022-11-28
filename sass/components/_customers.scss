@@ -64,13 +64,16 @@
     fill: var(--akcent-color); 
   }
 
-  @media screen and(min-width:1200px){
-    padding: 16px 32px;
-  }
+ 
 
-   @media screen and (min-width: 768px) and(max-width:1199px){
+   @media screen and (min-width: 768px) {
     width: 226px;
     padding: 16px 60px;
    }
+
+    @media screen and(min-width:1200px) {
+        width: 170px;
+        padding: 16px 32px;
+    }
 
 }

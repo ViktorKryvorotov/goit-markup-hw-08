@@ -5,19 +5,15 @@
 }
 
 .footer-container {
+    display:block;
+    text-align: center;
+
+    @media screen and (min-width: 1200px){
     align-items: baseline;
     display: flex;
+    }
+   
 }
-
-
-.social-title {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-
-}
-
 .address {
     margin-top: 20px;
 }
