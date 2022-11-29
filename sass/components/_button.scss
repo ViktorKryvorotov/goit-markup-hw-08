@@ -77,8 +77,11 @@
     &:focus {
         background-color: var(--button-hover);
     }
+        @media screen and (min-width: 768px){
+        padding: 10px 28px 10px 31px;
+        }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
 .button--centered {
     margin-left: auto;
     margin-right: auto;
