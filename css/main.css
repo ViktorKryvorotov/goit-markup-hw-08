@@ -331,6 +331,12 @@ img {
   background-color: var(--button-hover);
 }
 
+@media screen and (max-width: 767px) {
+  .button--centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -676,12 +682,12 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -696,7 +702,12 @@ img {
 }
 
 .address-item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .address-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .address-link__colored {
@@ -721,14 +732,24 @@ img {
 }
 
 .social-container {
-  margin-left: 70px;
+  margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .social-container {
+    margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social-container {
+    margin-left: 70px;
+  }
 }
 
 .social-title {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.172;
 }
 
 .footer-social {
@@ -761,19 +782,22 @@ img {
   background-color: var(--akcent-color);
 }
 
-.form-subscribe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  gap: 12px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+@media screen and (min-width: 1200px) {
+  .form-subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    gap: 12px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }
 
 .form-subscribe__label {
   display: block;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -782,13 +806,19 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
 }
+@media screen and (min-width: 1200px) {
+  .form-subscribe__label {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
 .form-subscribe__input {
   display: block;
-  width: 358px;
+  width: 450px;
   height: 50px;
-  margin: 0;
   padding: 15px 16px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -804,6 +834,12 @@ img {
 }
 .form-subscribe__input:hover, .form-subscribe__input:focus {
   border-color: var(--akcent-color);
+}
+@media screen and (min-width: 1200px) {
+  .form-subscribe__input {
+    width: 358px;
+    margin: 0;
+  }
 }
 
 .form-subscribe__icon {

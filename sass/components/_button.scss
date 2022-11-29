@@ -78,3 +78,9 @@
         background-color: var(--button-hover);
     }
 }
+@media screen and (max-width: 767px) {
+.button--centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+}

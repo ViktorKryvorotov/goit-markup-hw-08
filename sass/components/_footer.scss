@@ -8,9 +8,13 @@
     display:block;
     text-align: center;
 
+    // @media screen and (min-width: 768px){}
+
+
+
     @media screen and (min-width: 1200px){
-    align-items: baseline;
     display: flex;
+    align-items: baseline;
     }
    
 }
@@ -26,7 +30,12 @@
 }
 
 .address-item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px){
+        margin-bottom: 9px;
+    }
+
 }
 
 .address-link__colored {
@@ -59,14 +68,23 @@
 
 
 .social-container {
+    margin-top: 60px;
+
+    @media screen and (min-width: 768px){
+    margin-left: 165px;
+    }
+
+    @media screen and (min-width: 1200px){
     margin-left: 70px;
+    }
+    
 }
 
 .social-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.142;
+    line-height: 1.172;
 
 }
 

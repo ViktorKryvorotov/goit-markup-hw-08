@@ -113,8 +113,7 @@
     
     }
 
-        .mobile-social__items:not(:last-child) {
-            border-right: 1px solid var(--secondary-color);
-            padding-right: 10px;
-        }
-    
+    .mobile-social__items:not(:last-child) {
+    border-right: 1px solid var(--secondary-color);
+    padding-right: 10px;
+    }
