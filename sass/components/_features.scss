@@ -31,11 +31,17 @@
     background-color: #F5F4FA;
     height: 120px;
     margin-bottom: 30px;
-
+    
 }
 
+@media screen and (max-width: 767px){
+.features__item:not(:last-child) {
+margin-bottom: 30px;
+}
+}
+       
 .features__item {
-    
+   
     @media screen and (min-width: 768px) {
         flex-basis: calc((100% - 30px) / 2);
     }
