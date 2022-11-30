@@ -185,21 +185,31 @@
           <h2 class="team__tittle">Наша команда</h2>
           <ul class="team__set">
             <li class="teammate">
-              <img
-                srcset="
-                  ./imges/team/img-270.jpg 270w,
-                  ./imges/team/img-354.jpg 354w,
-                  ./imges/team/img-450.jpg 450w,
-                  ./imges/team/img-540.jpg 540w,
-                  ./imges/team/img-708.jpg 708w,
-                  ./imges/team/img-900.jpg 900w
-                "
-                sizes="(min-width: 1200) 270px, (min-width: 768) 354px, (min-width: 480) 450px, 100vw"
-                src="./imges/team/img-450.jpg"
-                alt="team"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./imges/team/img-270.jpg 1x,
+                    ./imges/team/img-540.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./imges/team/img-354.jpg 1x,
+                    ./imges/team/img-708.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px )"
+                  srcset="
+                    ./imges/team/img-450.jpg 1x,
+                    ./imges/team/img-900.jpg 2x
+                  "
+                />
+                <img src="./imges/team/img-450.jpg" alt="team" loading="lazy" />
+              </picture>
+
               <div class="teammate__info">
                 <h3 class="teammate__name">Ігор Дем'яненко</h3>
                 <p class="teammate__text">Product Designer</p>
@@ -236,21 +246,34 @@
               </div>
             </li>
             <li class="teammate">
-              <img
-                srcset="
-                  ./imges/team/img-270-1.jpg 270w,
-                  ./imges/team/img-354-1.jpg 354w,
-                  ./imges/team/img-450-1.jpg 450w,
-                  ./imges/team/img-540-1.jpg 540w,
-                  ./imges/team/img-708-1.jpg 708w,
-                  ./imges/team/img-900-1.jpg 900w
-                "
-                sizes="(min-width: 1200) 270px, (min-width: 768) 354px, (min-width: 480) 450px, 100vw"
-                src="./imges/team/img-450-1.jpg"
-                alt="team"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./imges/team/img-270-1.jpg 1x,
+                    ./imges/team/img-540-1.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./imges/team/img-354-1.jpg 1x,
+                    ./imges/team/img-708-1.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px )"
+                  srcset="
+                    ./imges/team/img-450-1.jpg 1x,
+                    ./imges/team/img-900-1.jpg 2x
+                  "
+                />
+                <img
+                  src="./imges/team/img-450-1.jpg"
+                  alt="team"
+                  loading="lazy"
+                />
+              </picture>
               <div class="teammate__info">
                 <h3 class="teammate__name">Ольга Рєпіна</h3>
                 <p class="teammate__text">Frontend Developer</p>
@@ -287,21 +310,34 @@
               </div>
             </li>
             <li class="teammate">
-              <img
-                srcset="
-                  ./imges/team/img-270-2.jpg 270w,
-                  ./imges/team/img-354-2.jpg 354w,
-                  ./imges/team/img-450-2.jpg 450w,
-                  ./imges/team/img-540-2.jpg 540w,
-                  ./imges/team/img-708-2.jpg 708w,
-                  ./imges/team/img-900-2.jpg 900w
-                "
-                sizes="(min-width: 1200) 270px, (min-width: 768) 354px, (min-width: 480) 450px, 100vw"
-                src="./imges/team/img-450-2.jpg"
-                alt="team"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./imges/team/img-270-2.jpg 1x,
+                    ./imges/team/img-540-2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./imges/team/img-354-2.jpg 1x,
+                    ./imges/team/img-708-2.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px )"
+                  srcset="
+                    ./imges/team/img-450-2.jpg 1x,
+                    ./imges/team/img-900-2.jpg 2x
+                  "
+                />
+                <img
+                  src="./imges/team/img-450-2.jpg"
+                  alt="team"
+                  loading="lazy"
+                />
+              </picture>
               <div class="teammate__info">
                 <h3 class="teammate__name">Микола Тарасов</h3>
                 <p class="teammate__text">Marketing</p>
@@ -338,21 +374,34 @@
               </div>
             </li>
             <li class="teammate">
-              <img
-                srcset="
-                  ./imges/team/img-270-3.jpg 270w,
-                  ./imges/team/img-354-3.jpg 354w,
-                  ./imges/team/img-450-3.jpg 450w,
-                  ./imges/team/img-540-3.jpg 540w,
-                  ./imges/team/img-708-3.jpg 708w,
-                  ./imges/team/img-900-3.jpg 900w
-                "
-                sizes="(min-width: 1200) 270px, (min-width: 768) 354px, (min-width: 480) 450px, 100vw"
-                src="./imges/team/img-450-3.jpg"
-                alt="team"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px )"
+                  srcset="
+                    ./imges/team/img-270-3.jpg 1x,
+                    ./imges/team/img-540-3.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 768px )"
+                  srcset="
+                    ./imges/team/img-354-3.jpg 1x,
+                    ./imges/team/img-708-3.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px )"
+                  srcset="
+                    ./imges/team/img-450-3.jpg 1x,
+                    ./imges/team/img-900-3.jpg 2x
+                  "
+                />
+                <img
+                  src="./imges/team/img-450-3.jpg"
+                  alt="team"
+                  loading="lazy"
+                />
+              </picture>
               <div class="teammate__info">
                 <h3 class="teammate__name">Михайло Єрмаков</h3>
                 <p class="teammate__text">UI Designer</p>

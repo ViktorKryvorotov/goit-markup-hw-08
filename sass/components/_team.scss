@@ -42,11 +42,21 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--white-color);
 
-    flex-basis: calc((100% - 90px) / 4);
+    
 
     &:last-child {
         margin-right: 0px;
     }
+         @media screen and (min-width: 480px) {
+             width: 450px;
+         }
+    
+         @media screen and (min-width: 768px) {
+             width: 354px;
+         }
+    
+         @media screen and (min-width: 1200px) {
+             width: 270px;}
 }
 
 .teammate__info {
