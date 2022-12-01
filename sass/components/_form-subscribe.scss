@@ -1,4 +1,5 @@
 .form-subscribe {
+    margin-top: 60px;
     @media screen and (min-width: 768px){
         display: block;
         text-align: center;
@@ -9,6 +10,7 @@
         margin-left: auto;
         gap: 12px;
         align-items: flex-end;
+        text-align: start;
     }
 
 
@@ -16,9 +18,7 @@
 
 .form-subscribe__label {
     display: block;
-    margin-top: 60px;
     margin-bottom: 20px;
-    
 
     font-weight: 700;
     font-size: 14px;
@@ -30,7 +30,7 @@
 
     @media screen and (min-width: 1200px) {
     display: block;
-    margin-bottom: 20px;
+    margin-top: 0px;
     }
 
 

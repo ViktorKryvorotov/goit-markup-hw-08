@@ -52,7 +52,7 @@ margin-bottom: 30px;
 }
 
 .features__tittle {
-    text-align: center;
+   
     margin-top: 0;
     margin-bottom: 10px;
     color: var(--main-color);
@@ -60,6 +60,10 @@ margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+
+    @media screen and(max-width:481px) {
+        text-align: center;
+    }
 }
 
 .features__text {
