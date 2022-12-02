@@ -26,7 +26,7 @@
     }
     
 }
- @media screen and (min-width:786px) and (max-width: 1199px){
+ @media screen and (min-width:768px) and (max-width: 1199px){
     .contacts__item:not(:last-child){
         margin-bottom: 10px;
     }
@@ -63,7 +63,8 @@
 
 .contacts__icon {
     fill: currentColor; 
-    @media screen and (max-width:769px){
+
+    @media screen and (max-width:1199px){
     margin-right: 8px;
     }
     @media screen and (min-width:1200px) {
@@ -71,13 +72,14 @@
     }
 }
 .contacts__icon--email{
- @media screen and (max-width:769px) {
+ @media screen and (max-width:1199px) {
         width: 14px;
         height: 10px;
+        
     }
 }
 .contacts__icon--phone {
-    @media screen and (max-width:769px) {
+    @media screen and (max-width:1199px) {
         width: 10px;
         height: 14px;
     }
